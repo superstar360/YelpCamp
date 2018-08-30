@@ -11,7 +11,7 @@ var express     = require("express"),
     User        = require("./models/user"),
     seedDB      = require("./seeds")
     
-// require('dotenv').config();
+//  require('dotenv').config();
 //requring routes
 var commentRoutes    = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
