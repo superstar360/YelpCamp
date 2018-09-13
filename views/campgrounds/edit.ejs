@@ -2,9 +2,11 @@
     <div class="container">
         <div class="row">
 
-        <h1 style="text-align: center;">Edit <%= campground.name %></h1>
+        <h1 style="text-align: center; color: white;">Edit <%= campground.name %></h1>
             <div style="width: 30%; margin: 25px auto;">
+                
                 <form action="/campgrounds/<%= campground._id %>?_method=PUT" method="POST">
+                  <div class="styleForm">
                     <div class="form-group">
                         <input class="form-control" type="text" name="campground[name]" value="<%= campground.name %>">
                     </div>
@@ -24,9 +26,9 @@
                     <div class="form-group">
                         <button class="btn btn-lg btn-primary btn-block">submit!</button>
                     </div>
-                    
+                  </div>  
                 </form>
-                <a href="/campgrounds">Go Back</a>
+                <a style="color: white;" href="/campgrounds">Go Back</a>
             </div>
         </div>
     </div>
