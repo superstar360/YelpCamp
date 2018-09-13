@@ -19,3 +19,51 @@
     height: 400px;
     width: 100%;
 }
+
+.styleForm {
+    border: solid 2px lightgray;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+/*.styleForm2 {*/
+/*    background-color: white;*/
+/*    border: solid 2px;*/
+/*}*/
+
+body {
+    background: url("http://www.ie-wallpapers.com/data/out/1/36354627-3d-wallpaper-hd.jpg");
+}
+/*label {*/
+/*    color: white !important;*/
+/*}*/
+
+input[type="text"], textarea {
+
+  background-color : #d1d1d1; 
+
+}
+
+input[type="password"], textarea {
+
+  background-color : #d1d1d1; 
+
+}
+
+input[type="email"], textarea {
+
+  background-color : #d1d1d1; 
+
+}
+
+input[type="url"], textarea {
+
+  background-color : #d1d1d1; 
+
+}
+
+input[type="number"], textarea {
+
+  background-color : #d1d1d1; 
+
+}
